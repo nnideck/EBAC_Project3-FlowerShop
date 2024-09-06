@@ -1,0 +1,56 @@
+.navbar-toggler {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1260px;
+}
+
+header {
+    background-color: #D4A373;
+}
+
+.nav-item a {
+    color: #FEFAE0 ;
+}
+
+.navbar-brand {
+    color: #FEFAE0;
+}
+
+.nav-item{
+    display: inline;
+}
+
+.cursive {
+    font-family: "Playwrite CU", cursive;
+}
+
+.carousel-item img {
+    height: 700px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+    .carousel-item img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+#about-us {
+    background-color: #FEFAE0;
+}
+
+

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg">
+      <div class="container align-center">
+        <h1 class="navbar-brand mb-0 cursive">Flower Shop</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-header"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="nav-header"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Floral design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Event decorations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="./images/carousel/carousel-1.jpg" />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./images/carousel/carousel-2.jpg" />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./images/carousel/carousel-3.jpg" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="carousel"
+          class="active"
+          data-bs-slide-to="0"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="carousel"
+          class=""
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="carousel"
+          class=""
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+    </div>
+    <section id="about-us" class="pt-5 pb-4">
+      <div class="container">
+        <div class="row align-content-center">
+          <div class="col-md-6 col-sm-6">
+            <img
+              src="./images/our-shop.jpg"
+              class="w-100 rounded text-center"
+              alt="our-facade"
+            />
+          </div>
+          <div class="col-md-6">
+            <h3 class="cursive">About us</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              delectus est corrupti enim blanditiis aliquam sunt facere mollitia
+              iste id totam nam in vero ratione necessitatibus dolorum libero,
+              provident officiis.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet. consectetur adipisicing elit. Culpa
+              delectus
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="floral-design">
+      <div class="container">
+        <div class="row">
+          <h2 class="cursive text-center">Floral Design</h2>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column">
+              <button
+                data-bs-toggle="tab"
+                data-bs-target="#mother-bouquets"
+                type="button"
+                class="btn fw-bold text-start nav-link active"
+              >
+                Mother's day Bouquets
+              </button>
+              <button
+                data-bs-toggle="tab"
+                data-bs-target="#wedding-bouquets"
+                type="button"
+                class="btn fw-bold text-start nav-link"
+              >
+                Wedding Bouquets
+              </button>
+              <button
+                data-bs-toggle="tab"
+                data-bs-target="#arranges"
+                type="button"
+                class="btn fw-bold text-start nav-link"
+              >
+                Arranges
+              </button>
+              <button
+                data-bs-toggle="tab"
+                data-bs-target="#flowers"
+                type="button"
+                class="btn fw-bold text-start nav-link"
+              >
+                Flowers
+              </button>
+            </nav>
+          </aside>
+          <div class="col-md-9">
+            <div class="tab-content">
+              <div class="tab-pane active" id="mother-bouquets">
+                <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/mother-bouquet/bouquet-1.jpg"
+                      alt="bouquet-1"
+                    />
+                    <h5>Bouquet #1</h5>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/mother-bouquet/bouquet-2.jpg"
+                      alt="bouquet-2"
+                    />
+                    <h5>Bouquet #2</h5>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/mother-bouquet/bouquet-3.jpg"
+                      alt="bouquet-3"
+                    />
+                    <h5>Bouquet #3</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="wedding-bouquets">
+                <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/wedding-bouquet/bouquetwed-1.jpg"
+                      alt="bouquet-1"
+                    />
+                    <h5>Bouquet #1</h5>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/wedding-bouquet/bouquetwed-2.jpg"
+                      alt="bouquet-2"
+                    />
+                    <h5>Bouquet #2</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="arranges">
+                <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/arranges/arrange-1.jpg"
+                      alt="arrange-1"
+                    />
+                    <h5>Arrange #1</h5>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/arranges/arrange-2.jpg"
+                      alt="arrange-2"
+                    />
+                    <h5>Arrange #2</h5>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/arranges/arrange-3.jpg"
+                      alt="arrange-3"
+                    />
+                    <h5>Arrange #3</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="flowers">
+                <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <img
+                      class="w-100 d-block rounded"
+                      src="./images/products/flowers/flower-1.jpg"
+                      alt="flowers-1"
+                    />
+                    <h5>Flowers #1</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
