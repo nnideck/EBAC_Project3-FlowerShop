@@ -6,6 +6,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+
 }
 
 .container {
@@ -16,11 +17,7 @@ header {
     background-color: #D4A373;
 }
 
-.nav-item a {
-    color: #FEFAE0 ;
-}
-
-.navbar-brand {
+.font-color {
     color: #FEFAE0;
 }
 
@@ -35,11 +32,27 @@ header {
 .carousel-item img {
     height: 700px;
     width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1200px){
+    #floral-design img {
+        height: 250px;
+    }
+    #event-decorations img {
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 1200px){
     .carousel-item img {
         height: 500px;
+    }
+    #floral-design img {
+        height: 120px;
+    }
+    #event-decorations img {
+        height: 200px;
     }
 }
 
@@ -47,10 +60,59 @@ header {
     .carousel-item img {
         height: 300px;
     }
+    #floral-design img {
+        height: 150px;
+    }
+    #event-decorations img {
+        height: 200px;
+    }
 }
 
-#about-us {
+#about-us,
+#event-decorations {
     background-color: #FEFAE0;
 }
+
+#floral-design,
+#contact-us {
+    background-color: #D4A373;
+}
+
+#floral-design img {
+    object-fit: cover;
+}
+
+.nav-pills .nav-link.active,
+footer {
+    background-color: #9cad62;
+    color: #FEFAE0;
+}
+
+
+.nav-link:hover,
+.nav-link:target {
+    color: #FEFAE0;
+}
+
+#event-decorations img {
+    object-fit: cover;
+}
+
+#contact-us textarea {
+    height: 120px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+form .btn {
+    background-color: #9cad62;
+    color: #FEFAE0
+}
+
+
+
 
 
