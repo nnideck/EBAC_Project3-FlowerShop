@@ -1,16 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
 .navbar-toggler {
     background-color: transparent;
     outline: none;
     border: none;
+
 }
 
 body {
     font-family: "Roboto", sans-serif;
+}
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .container {
-    max-width: 1260px;
+    max-width: 100%;
 }
 
 header {
@@ -30,8 +39,8 @@ header {
 }
 
 .carousel-item img {
-    height: 700px;
     width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
